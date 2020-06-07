@@ -1,0 +1,45 @@
+#logo {
+  max-height: 135px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerContainer {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.books {
+  height: 350px;
+  padding: 0;
+}
+.books img {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .books {
+    margin-bottom: 20px;
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .books {
+    margin-bottom: 20px;
+    height: 829px;
+  }
+
+  .books img {
+    width: 100%;
+    height: initial;
+  }
+}
