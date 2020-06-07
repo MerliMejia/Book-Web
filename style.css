@@ -26,6 +26,10 @@
   margin-right: auto;
 }
 
+#booksContainer{
+    max-width: 1024px;
+}
+
 @media only screen and (max-width: 767px) {
   .books {
     margin-bottom: 20px;
@@ -35,7 +39,7 @@
 @media only screen and (max-width: 576px) {
   .books {
     margin-bottom: 20px;
-    height: 829px;
+    height: 100%;
   }
 
   .books img {
