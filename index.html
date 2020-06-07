@@ -17,6 +17,10 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css"
+    />
 
     <title>Erkencishop</title>
   </head>
@@ -35,14 +39,48 @@
           </li>
         </ul>
       </div>
-      <h1 class="centerContainer">LIBROS</h1>
+
+      <h1 style="margin-top: 20px;" class="centerContainer">LIBROS</h1>
       <div id="booksContainer" class="row centerContainer full-width">
-        <div class="col-md-4 books"><img src="imgs/1.png" alt=""></div>
-        <div class="col-md-4 books"><img src="imgs/2.png" alt=""></div>
-        <div class="col-md-4 books"><img src="imgs/3.png" alt=""></div>
+        <div class="col-md-4 books"><img src="imgs/1.png" alt="" /></div>
+        <div class="col-md-4 books"><img src="imgs/2.png" alt="" /></div>
+        <div class="col-md-4 books"><img src="imgs/3.png" alt="" /></div>
       </div>
-      <div class="row"></div>
+
+      <h1 style="margin-top: 60px;" class="centerContainer">AUDIOLIBROS</h1>
+      <div id="booksContainer" class="row centerContainer full-width">
+        <div class="col-md-6 books">
+          <img src="imgs/AudioLibro Can.png" alt="" />
+        </div>
+        <div class="col-md-6 books">
+          <img src="imgs/Audiolibro El Fénix y el albatros.png" alt="" />
+        </div>
+      </div>
+      <!-- <div class="row"></div> -->
     </div>
+
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="alert text-center cookiealert" role="alert">
+      <b>Politicas de cookies</b> &#x1F36A; Esta pagina usa cookies para
+      asegurar el mejor uso de la misma.
+      <a href="https://cookiesandyou.com/" target="_blank">Saber mas.</a>
+
+      <button type="button" class="btn btn-primary btn-sm acceptcookies">
+        ACEPTO
+      </button>
+    </div>
+    <!-- END Bootstrap-Cookie-Alert -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="Erkencishop.com"> Erkencishop.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -61,5 +99,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
   </body>
 </html>
