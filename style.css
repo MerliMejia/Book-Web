@@ -87,14 +87,35 @@ li a{
     transform: scale(1.05);
 }
 
+#mobileNav{
+  background-color: transparent;
+}
+
 #booksContainer {
   max-width: 1024px;
 }
 
+#mobileNav{
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 767px) {
+  #mobileNavContent{
+    display: none !important;
+  }
+}
 @media only screen and (max-width: 767px) {
   .books {
     margin-bottom: 20px;
     height: 450px;
+  }
+  #mobileNav{
+    display: block;
+  }
+  #navContainer{
+    display: none;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -107,4 +128,5 @@ li a{
     width: 100%;
     height: initial;
   }
+
 }
